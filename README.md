@@ -1,17 +1,25 @@
-# simple_book
+# Record
 
-A new Flutter project.
+一款本地记账 App（Flutter / Android），数据仅保存在本机。
 
-## Getting Started
+## 当前进度
 
-This project is a starting point for a Flutter application.
+> 记账功能成功实现，还未开发饮食记录功能，logo、名称和色彩搭配还需要修改
 
-A few resources to get you started if this is your first Flutter project:
+## 已实现功能
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **账单**：收入/支出记录，支持分类、备注、支付方式（储蓄卡/信用卡/微信/支付宝）；按月查看，日期分组显示当日收/支/净
+- **统计**：支出/收入两个分页，支持周/月切换与周期选择（滚轮）；顶部折线图（含均值线）、分类饼图、分类排行；点排行可进入细分类别统计
+- **预算**：总预算进度圈（剩余百分比）、月度预算编辑、资产块概览
+- **资产**：账户管理（现金/储蓄卡/信用卡/移动支付/自定义资产/自定义欠款），资产走势图（资产/负债/净资产三线）、资产状况饼图、资产负债进度条、资产排行；账单支付方式与账户自动联动增减
+- **常用记账**：设置常用模板，账单页黄色闪电一键快捷记账
+- 全站金额千位分隔显示
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 安装包
+
+- `releases/Record.apk` —— release 构建（debug 签名），可直接安装体验
+
+## 说明
+
+- 仅面向 Android；数据库使用 sqflite，数据保存在应用私有目录
+- 测真实流畅度请安装 release 包（debug 包较慢属正常）
