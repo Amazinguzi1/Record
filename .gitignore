@@ -1,0 +1,30 @@
+# Flutter / Dart 构建产物
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+.vscode/
+
+# Android 构建与本地配置
+android/.gradle/
+android/captures/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.jks
+*.keystore
+
+# 本项目：旧代码备份与本地临时目录
+backup/
+.backup/
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db

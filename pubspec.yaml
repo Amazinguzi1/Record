@@ -1,0 +1,19 @@
+name: simple_book
+description: 本地免费记账
+version: 1.2.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  fl_chart: ^0.66.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
